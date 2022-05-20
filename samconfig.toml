@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ippt-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-b5b4wm60sfsg"
+s3_prefix = "ippt-sam"
+region = "ap-southeast-1"
+profile = "IPPT-SY-SG"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "Env=\"prod\""
+image_repositories = []
